@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "181E611E247F37BF00A54E2F"
-               BuildableName = "FinaExan.app"
-               BlueprintName = "FinaExan"
-               ReferencedContainer = "container:FinaExan.xcodeproj">
+               BuildableName = "FinaExam.app"
+               BlueprintName = "FinaExam"
+               ReferencedContainer = "container:FinaExam.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "181E6134247F37C000A54E2F"
-               BuildableName = "FinaExanTests.xctest"
-               BlueprintName = "FinaExanTests"
-               ReferencedContainer = "container:FinaExan.xcodeproj">
+               BuildableName = "FinaExamTests.xctest"
+               BlueprintName = "FinaExamTests"
+               ReferencedContainer = "container:FinaExam.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "181E613F247F37C000A54E2F"
-               BuildableName = "FinaExanUITests.xctest"
-               BlueprintName = "FinaExanUITests"
-               ReferencedContainer = "container:FinaExan.xcodeproj">
+               BuildableName = "FinaExamUITests.xctest"
+               BlueprintName = "FinaExamUITests"
+               ReferencedContainer = "container:FinaExam.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "181E611E247F37BF00A54E2F"
-            BuildableName = "FinaExan.app"
-            BlueprintName = "FinaExan"
-            ReferencedContainer = "container:FinaExan.xcodeproj">
+            BuildableName = "FinaExam.app"
+            BlueprintName = "FinaExam"
+            ReferencedContainer = "container:FinaExam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "181E611E247F37BF00A54E2F"
-            BuildableName = "FinaExan.app"
-            BlueprintName = "FinaExan"
-            ReferencedContainer = "container:FinaExan.xcodeproj">
+            BuildableName = "FinaExam.app"
+            BlueprintName = "FinaExam"
+            ReferencedContainer = "container:FinaExam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

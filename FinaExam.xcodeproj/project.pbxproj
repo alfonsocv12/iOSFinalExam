@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		181E611F247F37BF00A54E2F /* FinaExan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinaExan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E611F247F37BF00A54E2F /* FinaExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinaExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E6122247F37BF00A54E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181E6124247F37BF00A54E2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		181E6126247F37BF00A54E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +44,10 @@
 		181E612B247F37C000A54E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181E612E247F37C000A54E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181E6130247F37C000A54E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181E6135247F37C000A54E2F /* FinaExanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaExanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E6135247F37C000A54E2F /* FinaExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E6139247F37C000A54E2F /* FinaExanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaExanTests.swift; sourceTree = "<group>"; };
 		181E613B247F37C000A54E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181E6140247F37C000A54E2F /* FinaExanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaExanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E6140247F37C000A54E2F /* FinaExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E6144247F37C000A54E2F /* FinaExanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaExanUITests.swift; sourceTree = "<group>"; };
 		181E6146247F37C000A54E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181E6152247F392500A54E2F /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				181E6121247F37BF00A54E2F /* FinaExan */,
-				181E6138247F37C000A54E2F /* FinaExanTests */,
-				181E6143247F37C000A54E2F /* FinaExanUITests */,
+				181E6138247F37C000A54E2F /* FinaExamTests */,
+				181E6143247F37C000A54E2F /* FinaExamUITests */,
 				181E6120247F37BF00A54E2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 		181E6120247F37BF00A54E2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181E611F247F37BF00A54E2F /* FinaExan.app */,
-				181E6135247F37C000A54E2F /* FinaExanTests.xctest */,
-				181E6140247F37C000A54E2F /* FinaExanUITests.xctest */,
+				181E611F247F37BF00A54E2F /* FinaExam.app */,
+				181E6135247F37C000A54E2F /* FinaExamTests.xctest */,
+				181E6140247F37C000A54E2F /* FinaExamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,30 +113,30 @@
 			path = FinaExan;
 			sourceTree = "<group>";
 		};
-		181E6138247F37C000A54E2F /* FinaExanTests */ = {
+		181E6138247F37C000A54E2F /* FinaExamTests */ = {
 			isa = PBXGroup;
 			children = (
 				181E6139247F37C000A54E2F /* FinaExanTests.swift */,
 				181E613B247F37C000A54E2F /* Info.plist */,
 			);
-			path = FinaExanTests;
+			path = FinaExamTests;
 			sourceTree = "<group>";
 		};
-		181E6143247F37C000A54E2F /* FinaExanUITests */ = {
+		181E6143247F37C000A54E2F /* FinaExamUITests */ = {
 			isa = PBXGroup;
 			children = (
 				181E6144247F37C000A54E2F /* FinaExanUITests.swift */,
 				181E6146247F37C000A54E2F /* Info.plist */,
 			);
-			path = FinaExanUITests;
+			path = FinaExamUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		181E611E247F37BF00A54E2F /* FinaExan */ = {
+		181E611E247F37BF00A54E2F /* FinaExam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181E6149247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExan" */;
+			buildConfigurationList = 181E6149247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExam" */;
 			buildPhases = (
 				181E611B247F37BF00A54E2F /* Sources */,
 				181E611C247F37BF00A54E2F /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = FinaExan;
+			name = FinaExam;
 			productName = FinaExan;
-			productReference = 181E611F247F37BF00A54E2F /* FinaExan.app */;
+			productReference = 181E611F247F37BF00A54E2F /* FinaExam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		181E6134247F37C000A54E2F /* FinaExanTests */ = {
+		181E6134247F37C000A54E2F /* FinaExamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181E614C247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExanTests" */;
+			buildConfigurationList = 181E614C247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExamTests" */;
 			buildPhases = (
 				181E6131247F37C000A54E2F /* Sources */,
 				181E6132247F37C000A54E2F /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				181E6137247F37C000A54E2F /* PBXTargetDependency */,
 			);
-			name = FinaExanTests;
+			name = FinaExamTests;
 			productName = FinaExanTests;
-			productReference = 181E6135247F37C000A54E2F /* FinaExanTests.xctest */;
+			productReference = 181E6135247F37C000A54E2F /* FinaExamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		181E613F247F37C000A54E2F /* FinaExanUITests */ = {
+		181E613F247F37C000A54E2F /* FinaExamUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181E614F247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExanUITests" */;
+			buildConfigurationList = 181E614F247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExamUITests" */;
 			buildPhases = (
 				181E613C247F37C000A54E2F /* Sources */,
 				181E613D247F37C000A54E2F /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				181E6142247F37C000A54E2F /* PBXTargetDependency */,
 			);
-			name = FinaExanUITests;
+			name = FinaExamUITests;
 			productName = FinaExanUITests;
-			productReference = 181E6140247F37C000A54E2F /* FinaExanUITests.xctest */;
+			productReference = 181E6140247F37C000A54E2F /* FinaExamUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 181E611A247F37BF00A54E2F /* Build configuration list for PBXProject "FinaExan" */;
+			buildConfigurationList = 181E611A247F37BF00A54E2F /* Build configuration list for PBXProject "FinaExam" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				181E611E247F37BF00A54E2F /* FinaExan */,
-				181E6134247F37C000A54E2F /* FinaExanTests */,
-				181E613F247F37C000A54E2F /* FinaExanUITests */,
+				181E611E247F37BF00A54E2F /* FinaExam */,
+				181E6134247F37C000A54E2F /* FinaExamTests */,
+				181E613F247F37C000A54E2F /* FinaExamUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		181E6137247F37C000A54E2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 181E611E247F37BF00A54E2F /* FinaExan */;
+			target = 181E611E247F37BF00A54E2F /* FinaExam */;
 			targetProxy = 181E6136247F37C000A54E2F /* PBXContainerItemProxy */;
 		};
 		181E6142247F37C000A54E2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 181E611E247F37BF00A54E2F /* FinaExan */;
+			target = 181E611E247F37BF00A54E2F /* FinaExam */;
 			targetProxy = 181E6141247F37C000A54E2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinaExan.app/FinaExan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinaExam.app/FinaExam";
 			};
 			name = Debug;
 		};
@@ -512,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinaExan.app/FinaExan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinaExam.app/FinaExam";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181E611A247F37BF00A54E2F /* Build configuration list for PBXProject "FinaExan" */ = {
+		181E611A247F37BF00A54E2F /* Build configuration list for PBXProject "FinaExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181E6147247F37C000A54E2F /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181E6149247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExan" */ = {
+		181E6149247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181E614A247F37C000A54E2F /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181E614C247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExanTests" */ = {
+		181E614C247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181E614D247F37C000A54E2F /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181E614F247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExanUITests" */ = {
+		181E614F247F37C000A54E2F /* Build configuration list for PBXNativeTarget "FinaExamUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				181E6150247F37C000A54E2F /* Debug */,

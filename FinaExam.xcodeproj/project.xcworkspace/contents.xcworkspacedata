@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FinaExan.xcodeproj">
+      location = "self:/Users/apple/Documents/school/iOS/FinaExan/FinaExam.xcodeproj">
    </FileRef>
 </Workspace>
