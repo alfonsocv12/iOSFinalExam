@@ -15,6 +15,7 @@
 		181E612F247F37C000A54E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E612D247F37C000A54E2F /* LaunchScreen.storyboard */; };
 		181E613A247F37C000A54E2F /* FinaExanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E6139247F37C000A54E2F /* FinaExanTests.swift */; };
 		181E6145247F37C000A54E2F /* FinaExanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E6144247F37C000A54E2F /* FinaExanUITests.swift */; };
+		181E6153247F392500A54E2F /* ParticlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E6152247F392500A54E2F /* ParticlePeripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		181E6140247F37C000A54E2F /* FinaExanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinaExanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E6144247F37C000A54E2F /* FinaExanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaExanUITests.swift; sourceTree = "<group>"; };
 		181E6146247F37C000A54E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E6152247F392500A54E2F /* ParticlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlePeripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		181E6121247F37BF00A54E2F /* FinaExan */ = {
 			isa = PBXGroup;
 			children = (
+				181E6152247F392500A54E2F /* ParticlePeripheral.swift */,
 				181E6122247F37BF00A54E2F /* AppDelegate.swift */,
 				181E6124247F37BF00A54E2F /* SceneDelegate.swift */,
 				181E6126247F37BF00A54E2F /* ViewController.swift */,
@@ -262,6 +265,7 @@
 				181E6127247F37BF00A54E2F /* ViewController.swift in Sources */,
 				181E6123247F37BF00A54E2F /* AppDelegate.swift in Sources */,
 				181E6125247F37BF00A54E2F /* SceneDelegate.swift in Sources */,
+				181E6153247F392500A54E2F /* ParticlePeripheral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
