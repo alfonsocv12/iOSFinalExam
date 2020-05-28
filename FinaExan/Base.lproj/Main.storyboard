@@ -45,12 +45,6 @@
                                     <action selector="forwardButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMB-y7-BAx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5io-Jh-eI8">
-                                <rect key="frame" x="167" y="135" width="85" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="Discover"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZI-5X-lj9">
                                 <rect key="frame" x="309" y="433" width="85" height="30"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,14 +60,11 @@
                             <constraint firstItem="jvb-n3-GWA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="185" id="2q0-5H-FX1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BPd-Je-HYb" secondAttribute="trailing" constant="182" id="5vr-q0-Cib"/>
                             <constraint firstItem="zZI-5X-lj9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="FvZ-CO-CGD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5io-Jh-eI8" secondAttribute="trailing" constant="162" id="Mp4-89-y0p"/>
                             <constraint firstItem="OYQ-Qe-O7o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PHh-zx-pWl"/>
-                            <constraint firstItem="5io-Jh-eI8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="RRh-HE-idw"/>
+                            <constraint firstItem="zFJ-ao-dVh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="269" id="S4t-hz-cUR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jvb-n3-GWA" secondAttribute="trailing" constant="183" id="UjN-al-2FA"/>
-                            <constraint firstItem="zFJ-ao-dVh" firstAttribute="top" secondItem="5io-Jh-eI8" secondAttribute="bottom" constant="148" id="WPr-9j-9b4"/>
                             <constraint firstItem="zFJ-ao-dVh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="YJb-bi-9m1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zZI-5X-lj9" secondAttribute="trailing" constant="20" id="bFV-uI-Pd8"/>
-                            <constraint firstItem="5io-Jh-eI8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="91" id="fVo-Uk-peY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zFJ-ao-dVh" secondAttribute="trailing" constant="162" id="hJH-QI-I2z"/>
                             <constraint firstItem="OYQ-Qe-O7o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="qbU-0P-lDX"/>
                             <constraint firstItem="jvb-n3-GWA" firstAttribute="top" secondItem="BPd-Je-HYb" secondAttribute="bottom" constant="31" id="roJ-yE-3eh"/>
